@@ -1,9 +1,9 @@
 #Enter a task description
 task = input ("Enter your task: ")
 priority = input ("Priority (high/medium/low): ")
-time = input ("Is it time-bound? (yes/no):")
+time_bound = input ("Is it time-bound? (yes/no):")
 
-if time == "yes":
+if time_bound == "yes":
         print("Reminder: ", end = "")
 else:
         print("Note: ", end = "")
